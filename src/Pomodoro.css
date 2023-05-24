@@ -1,0 +1,107 @@
+/* container principal */
+.pomodoro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #d3920785;
+    padding: 12rem;
+    border-radius: 0rem;
+    box-shadow: 0 0 10px rgba(226, 219, 219, 0.2);
+  }
+  
+  /* titre */
+  .pomodoro-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  /* conteneur du chronomètre */
+  .timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* chronomètre */
+  .timer {
+    font-size: 4rem;
+    color: #597dc1;
+    margin-bottom: 1rem;
+  }
+  
+  /* boutons du chronomètre */
+  .timer-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .start-button,
+  .stop-button {
+    background-color: #00a8cc;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .start-button:hover,
+  .stop-button:hover {
+    background-color: #007c99;
+  }
+  
+  .stop-button {
+    background-color: #c70039;
+    transition: background-color 0.2s;
+  }
+  
+  .stop-button:hover {
+    background-color: #95002b;
+  }
+  
+  /* boutons de pause */
+  .break-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .short-break,
+  .long-break {
+    background-color: #4d4d4d;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .short-break:hover,
+  .long-break:hover {
+    background-color: #3b3b3b;
+  }
+  
+  /* bouton de réinitialisation */
+  .reset-button {
+    background-color: #4d4d4d;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: flex;
+    margin: 15px;
+  }
+  
+  .reset-button:hover {
+    background-color: #858585;
+  }
+  
